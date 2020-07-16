@@ -30,5 +30,6 @@
   <module>btrace-helloworld</module>
   <module>btrace-tracing-method</module>
   <module>btrace-global-callbacks</module>
+  <module>btrace-sampling</module>
  </modules>
 </project>
