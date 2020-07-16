@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+ <modelVersion>4.0.0</modelVersion>
+
+ <groupId>com.ymmihw</groupId>
+ <artifactId>btrace-sample</artifactId>
+ <version>0.0.1-SNAPSHOT</version>
+ <packaging>pom</packaging>
+
+ <name>btrace-sample</name>
+ <url>http://maven.apache.org</url>
+
+ <properties>
+  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  <maven.compiler.source>1.8</maven.compiler.source>
+  <maven.compiler.target>1.8</maven.compiler.target>
+  <root>D:\work\workspace\btrace-sample</root>
+ </properties>
+ <dependencies>
+  <dependency>
+   <groupId>btrace-client</groupId>
+   <artifactId>btrace-client</artifactId>
+   <version>1.0</version>
+   <scope>system</scope>
+   <systemPath>${root}\lib\btrace-client.jar</systemPath>
+  </dependency>
+ </dependencies>
+ <modules>
+  <module>btrace-helloworld</module>
+  <module>btrace-tracing-method</module>
+ </modules>
+</project>
